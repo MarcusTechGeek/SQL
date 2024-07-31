@@ -12,6 +12,7 @@ VALUES
 
 COPY char_data_types TO 'C:\YourDirectory\typetest.txt'
 WITH (FORMAT CSV, HEADER, DELIMITER '|');
+
 --3.2
 CREATE TABLE number_data_types (
     numeric_column numeric(20,5),
